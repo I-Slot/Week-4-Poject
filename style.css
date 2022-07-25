@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-position: center;
+    background-size: cover;
+    background-position: top-right;
+    background-origin: content-box;
+
+    
+    
+}
+
+
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 10%;
+    overflow: hidden;
+    margin: 10%;
+    position: relative;
+
+}
+
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+
+.logo{
+    width: 140px;
+    margin-left: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+   list-style: none;
+   margin: 15px 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.getStarted {
+    display: inline-block;
+    color: white;
+    font-weight: bold ;
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 15px;
+    padding: 5px;
+    border-top-right-radius: 0;
+    margin-right: 110px;
+    transition: 0.5s;
+}
+
+.content1 {
+    margin-left: 90px ;
+    min-width: 600px;
+}
+
+.content1 h1 {
+    font-size: 70px;
+    color: darkblue;
+
+
+}
+
+.content1 p {
+    margin-left: 8px;
+    font-size: 25px;
+    color: darkblue;
+}
+
+.content1 .btn {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    background-color: tomato;
+    border-radius: 10px;
+    color: white;
+    border-top-right-radius: 0;
+    padding: 3px;
+
+
+}
+
+.btn:hover{
+   border-top-left-radius: 30px;
+
+}
+
+.illustration {
+    width: 530px;
+    position: absolute;
+    top: 150px;
+    right: 1%;
+}
+
+.content2 {
+    margin-left: 90px ;
+    min-width: 600px;
+    /* position: absolute; */
+    top: 20px;
+
+}
+
+.content2 h2 {
+    font-size: 50px;
+    color: darkblue;
+    margin-top: 50px;
+    
+}
+
+.content2 p {
+    font-size: 20px;
+    color: darkblue;
+}
+
+.content2-left{
+    width: 530px;
+    position: absolute;
+    /* bottom:0px; */
+    top: 40px;
+    right: 1%;
+
+}
+
+.content2-left ul li{
+    list-style-type: none;
+}
+
+.content2-left ul li h3 {
+    color: darkblue;
+    font-size: 18px;
+}
+
+
+.content2-left ul li span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    display: inline-block;
+    border-radius: 50% ;
+
+}
+
+
+.content2-left ul {
+    position: relative;
+}
+
+
+.review {
+    color: darkblue;
+    margin-top: 450px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.review h3 {
+    margin: 50px;
+}
+
+.profilepic{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    margin: 5px auto;
+    gap: 200px;
+
+}
+
+.hr-btn center hr{
+    display: inline-block;
+    margin-top: 2px;
+    border-radius: 5px;
+   
+}
+
+.hr-bt{
+    display: inline-block;
+    color: white;
+    font-weight: bold ;
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+
+.part4{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 30px; */
+    color: white;
+    background-color: tomato;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.parag{
+    margin: 10px 30px;
+    font-size: 30px;
+    height: 90px;
+}
+
+.btn{
+    display: inline-block;
+    color: tomato;
+    font-weight: bold ;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 8px; */
+    /* margin: 10px ; */
+    transition: 0.5s;
+    margin-right: 100px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.footer {
+    margin: px 10px;
+    width: 100%;
+    padding: 50px 10%;
+    background: #333;
+    color: white;
+    display: flex;
+}
+
+/* .footer div {
+    text-align: center;
+} */
+
+.col-2 {
+    flex-grow: 2;
+    /* margin-left: 40px; */
+}
+
+.footer div a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.footer div form{
+    margin-left: 90px;
+
+}
+
+.footer div form input {
+    border-radius: 40px;
+    height: 25px;
+    
+}
+
+.footer div form button {
+    border-radius: 8px;
+    color: white;
+    background-color: tomato;
+    border: 2px solid tomato;
+    height: 300x;
+}
+
+
+.col-1 {
+    margin-right: 100px;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+}
+
+.content2-left{
+    margin-top: 600px;
+}
